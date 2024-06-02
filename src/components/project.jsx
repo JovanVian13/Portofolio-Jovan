@@ -19,7 +19,7 @@ const Project = () => {
             </div>
             <div className="flex py-5 justify-center items-center gap-8 w-11/12 mx-auto">
                 <Photos
-                icon={Port2}
+                icon={Port1}
                 title={"First Project JoHome"}
                 ></Photos>
                 <Photos
