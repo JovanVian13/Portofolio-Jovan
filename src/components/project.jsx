@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Port2 from "../assets/img/Port2.jpg";
+import port1 from "../assets/img/port1.jpg";
 import Photos from "./elements/photos";
 
 const Project = () => {
