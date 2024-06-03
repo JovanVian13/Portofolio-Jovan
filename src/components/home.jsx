@@ -30,6 +30,7 @@ const Home = () => {
         <br />
         <Button 
         children={"Download CV"}
+        onClick={download}
         />
       </div>
       <div>
