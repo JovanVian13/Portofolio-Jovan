@@ -12,6 +12,15 @@ const Home = () => {
       duration: 1000,
     });
   });
+
+  const download = () => {
+    const link = document.createElement("a");
+    link.href =
+      "https://drive.google.com/file/d/1I4lu4VI_LFw7gslZFv5ogzLjxVFHl_1r/view?usp=sharing";
+    link.download = "JOVAN_VIAN_THENDRA_CV.pdf";
+    link.click();
+  };
+  
   return (
     <div className="flex bg-gradient-to-r from-bgColor to-backColor min-h-screen items-center justify-center gap-3" data-aos="fade-right">
       <div className='p-10 w-1/2'>
